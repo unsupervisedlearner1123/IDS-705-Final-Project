@@ -54,5 +54,5 @@ A rough timeline of the project is as under:
 
 ### References 
 
-Khosla, A., Jayadevaprakash, N., Yao, B., & Fei-Fei, L. (2011). Stanford Dogs Dataset. Stanford Dogs Dataset. http://vision.stanford.edu/aditya86/ImageNetDogs/
-ImageNet. (2021). ImageNet. https://www.image-net.org/update-mar-11-2021.php
+1. Khosla, A., Jayadevaprakash, N., Yao, B., & Fei-Fei, L. (2011). Stanford Dogs Dataset. Stanford Dogs Dataset. http://vision.stanford.edu/aditya86/ImageNetDogs/
+2. ImageNet. (2021). ImageNet. https://www.image-net.org/update-mar-11-2021.php

@@ -14,8 +14,4 @@ The dataset used in this analysis was collected from [Kaggle](https://www.kaggle
 
 ### Experiments 
 
-### Project Plan
-
-### Roles 
-
-### References 
+### Requirements

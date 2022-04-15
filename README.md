@@ -38,6 +38,16 @@ pip install -r requirements.txt
 
 * To replicate the experiments, use code `50_experiments.py`.
 
+### Environment Variables 
+The script reads `train.csv` from a custom AWS S3 bucket. This requires the following environment variables to be set:
+| Name | Value |
+| --- | --- |
+| `aws_bucket_name` | Name of the S3 Bucket to use for data storage |
+| `AWS_SECRET_KEY` | Your AWS Access Key ID |
+| `SECRET_ACCESS_KEY` | Your AWS Secret Access Key |
+
+This file can also be downloaded directly from [here](https://www.kaggle.com/competitions/microsoft-malware-prediction/data?select=train.csv).
+
 ### References
 1.	Bryan Dixon, Y. J. (2011). Location based power analysis to detect malicious code in smartphones. Proceedings of the 1st ACM workshop on Security and privacy in smartphones and mobile devices, SPSM, 27-32.
 2.	Daniele Uccia, L. A. (2018). Survey of machine learning techniques for malware analysis. Computer Security.

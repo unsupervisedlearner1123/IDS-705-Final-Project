@@ -1,6 +1,7 @@
 # Analysis of Malware Prediction in Windows Devices
+## Final Project for IDS 705: Principles of Machine Learning
 
-*Mohammad Anas, Ying Feng, Vicky Nomwesigwa, Deekshita Saikia*
+*Contributors: Mohammad Anas, Ying Feng, Vicky Nomwesigwa, Deekshita Saikia*
 
 ### Abstract
 Malware infection rates have been on the rise in recent years. Given the data deluge the industry currently faces, it is essential to guard our devices well so that the impact from malware attacks can be minimized. Through this analysis, we explore different tree-based models that can predict a Windows machine’s probability of getting infected by malware, based on different hardware and software configurations of that machine. A LightGBM classification model performed the best in our hold-out dataset in predicting if a machine would be infected. We also delve into which features of a device are most sensitive to a malware attack, and it was found that the diagonal display size is particularly sensitive to changes in the underlying sample.
@@ -18,6 +19,12 @@ This project is built with Python 3, and the visualizations are created using Ju
 git clone git@github.com:unsupervisedlearner1123/IDS-705-Final-Project.git
 ```
 
-* Set current working directory to repo's directory
+* Unzip files in `./data/` and set current working directory to repo's directory
 
-* gjgug 
+* To replicate the data exporatory analysis, run code `10_Data_Preprocessing+EDA.ipynb`.
+
+* To replicate the feature selection process, run code `20_Feature_Selection.ipynb`. The outut from code `10` feeds into code `20`.
+
+* To replicate the pre-processing steps on unseen data, use code `preprocessing_pipeline.py`.
+
+* To replicate the hyper-paramater tuning and model training steps, use code `30_tuning_LGBM.ipynb` to fit a LightGBM classifier, `31_tuning_RF.ipynb` to fit a Random Forest classifier, and `32_tuning_XGB.ipynb` to fit an XGBoost classifier.

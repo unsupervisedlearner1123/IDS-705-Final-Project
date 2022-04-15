@@ -37,3 +37,23 @@ pip install -r requirements.txt
 * To test the classifiers on unseen data with tuned hyper-parameters, use code `40_Predictions_on_Test.py`.
 
 * To replicate the experiments, use code `50_experiments.py`.
+
+### References
+1.	Bryan Dixon, Y. J. (2011). Location based power analysis to detect malicious code in smartphones. Proceedings of the 1st ACM workshop on Security and privacy in smartphones and mobile devices, SPSM, 27-32.
+2.	Daniele Uccia, L. A. (2018). Survey of machine learning techniques for malware analysis. Computer Security.
+3.	Ekta Gandotra, D. B. (2014). Malware analysis and classification: a survey. Journal of Information Security, 56-64.
+4.	H.S. Galal, Y. M. (2016). Behavior-based features model for malware detection. J. Comput. Virol. Hacking Tech., 59-67.
+5.	Hahnsang Kim, J. S. (2018). Detecting energygreedy anomalies and mobile malware variants. Proceedings of the 6th international conference on Mobile systems, applications, and services, MobiSys, 239–252.
+6.	Holland, P. W. (1986). Statistics and Causal Inference. J. Am. Stat. Assoc, 945-60.
+7.	I. Zelinka, E. A. (2019). An ensemble-based malware detection model using minimum feature set. Mendel, 25 (2), 1-10.
+8.	Kaggle. (2022, April 06). Microsoft Malware Prediction. Retrieved from Kaggle: https://www.kaggle.com/c/microsoft-malware-prediction
+9.	Lei Liu, G. Y. (2009). Virusmeter: Preventing your cellphone from spies. Proceedings of the 12th International Symposium on Recent Advances in Intrusion Detection, RAID, 244–264.
+10.	Microsoft Docs. (2022, April 6). Fileless threats. Retrieved from Microsoft Docs: https://docs.microsoft.com/en-us/microsoft-365/security/intelligence/fileless-threats?view=o365-worldwide
+11.	P. Burnap, R. F. (2018). Malware classification using self organising feature maps and machine activity data. Computer Security, 399-410.
+12.	PurpleSec. (2021, October 28). 10 Cyber Security Trends You Can't Ignore In 2021. Retrieved from https://purplesec.us/cyber-security-trends-2021/
+13.	Rubin, D. B. (1978). Bayesian Inference for Causality: The Importance of Randomization. The Annals of Statistics 6, 34-58.
+14.	S. Cesare, Y. X. (2013). Control Flow-Based Malware VariantDetection. IEEE Trans. Depend. Secure Comput., 307-317.
+15.	Sanjeev Das, Y. L. (2016). Semantics-Based Online Malware Detection: Towards Efficient Real-Time Protection Against Malware. IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY.
+16.	W. Han, J. X. (2019). MalDAE: detecting and explaining malware based on correlation and fusion of static and dynamic characteristics. Comput. Secur., 83, 208-233.
+17.	Y. Qiao, Y. Y. (2014). CBM: free, automatic malware analysis framework using API call sequences. Knowledge Engineering and Management, Springer, Berlin, 225-236.
+18.	Qi, C., Qiu, L., & Diao, J. (2019). On Estimating Model in Feature Selection With Cross-Validation. IEEE. https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8610148&tag=1

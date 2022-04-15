@@ -8,3 +8,4 @@ pickle
 hyperopt
 lightgbm
 xgboost
+boto3

@@ -24,7 +24,9 @@ git clone git@github.com:unsupervisedlearner1123/IDS-705-Final-Project.git
 pip install -r requirements.txt
 ```
 
-* Unzip files in `./data/` and set current working directory to repo's directory
+* Unzip files in `./data/` and set current working directory to repo's directory.
+
+* To replicate creating the sample used in this analysis, use code `00_Essence_of_life.ipynb` and retain the same value of `random_state`.
 
 * To replicate the data exporatory analysis, run code `10_Data_Preprocessing+EDA.ipynb`.
 
@@ -39,7 +41,7 @@ pip install -r requirements.txt
 * To replicate the experiments, use code `50_experiments.py`.
 
 ### Environment Variables 
-The script reads `train.csv` from a custom AWS S3 bucket. This requires the following environment variables to be set:
+The script `00_Essence_of_life.ipynb` reads `train.csv` from a custom AWS S3 bucket. This requires the following environment variables to be set:
 | Name | Value |
 | --- | --- |
 | `aws_bucket_name` | Name of the S3 Bucket to use for data storage |

@@ -1,7 +1,5 @@
 # Analysis of Malware Prediction in Windows Devices
 
-## Team 9
-
 *Mohammad Anas, Ying Feng, Vicky Nomwesigwa, Deekshita Saikia*
 
 ### Project Objectives

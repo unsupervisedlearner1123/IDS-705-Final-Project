@@ -1,5 +1,5 @@
-# Analysis of Malware Prediction in Windows Devices
-## Final Project for IDS 705: Principles of Machine Learning <img width=90 align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/1024px-Duke_University_logo.svg.png">
+# Analysis of Malware Prediction in Windows Devices <img width=90 align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/1024px-Duke_University_logo.svg.png">
+## Final Project for IDS 705: Principles of Machine Learning 
 
 *Contributors: Mohammad Anas, Ying Feng, Vicky Nomwesigwa, Deekshita Saikia*
 

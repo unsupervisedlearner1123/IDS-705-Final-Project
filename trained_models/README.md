@@ -1,0 +1,1 @@
+This directory contains the pickle files of the trained classifiers.

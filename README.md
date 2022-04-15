@@ -10,8 +10,4 @@ The dataset used in this analysis was collected from [Kaggle](https://www.kaggle
 
 The original dataset has 16 million values and 83 features, most of which were categorical attributes. Each row in this dataset corresponds to a machine, uniquely identified by a `MachineIdentifier`. `HasDetections` is the ground truth and indicates if malware was detected on the machine. A significant limitation of this analysis was the size of the datasets, which warranted significant compute and time resources. Owing to these constraints, we extract a stratified sample of approximately 1.5 million (~17%) observations from the original dataset. The stratification was performed on `HasDetections`, `Platform`, `Processor`, `IsProtected` and `Census_IsTouchEnabled`. The codebook can be referred to [here](https://www.kaggle.com/competitions/microsoft-malware-prediction/data?select=train.csv).
 
-### Methods
-
-### Experiments 
-
 ### Requirements
